@@ -5,14 +5,6 @@ remaining edges still span the graph.
 
 The graph is parsed from an input file passed to this script via a
 positional argument.
-
---------------------
-
-execution:
-python euler/_107_minimal_network.py euler/assets/107_network.txt
-
-output:
-259679
 Duration: 0.0077478885650634766s
 """
 

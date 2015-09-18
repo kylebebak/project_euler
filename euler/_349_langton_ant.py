@@ -1,12 +1,3 @@
-"""
-execution:
-python euler/_349_langton_ant.py 1000000000000000000
-
-output:
-115384615384614952 black squares after 1000000000000000000 moves
-Duration: 0.05420112609863281s
-"""
-
 class Ant(object):
     """An ant which belongs to a grid of black and white squares. It moves
     one square at a time, turning at each step in a direction determined
