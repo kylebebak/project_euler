@@ -1,5 +1,5 @@
 import unittest
-from .._349_langton_ant import LangtonSimulate
+from ..lib.langton import LangtonSimulate
 
 class TestLangton(unittest.TestCase):
 

@@ -3,7 +3,7 @@
 - 230 Fibonacci Words
 - 349 Langton's Ant
 
-### Solution scripts (general)
+### Solution scripts (general invocation from root directory)
 ```sh
 python euler/_107_minimal_network.py <path_to_graph_file>
 python euler/_230_fibonacci_words.py <string_1> <string_2>
@@ -11,19 +11,28 @@ python euler/_349_langton_ant.py <num_steps>
 ```
 
 #### 107 Minimal Network
-`python euler/_107_minimal_network.py euler/assets/107_network.txt`
-259679
-Duration: 0.0077478885650634766s
+```sh
+python euler/_107_minimal_network.py euler/assets/107_network.txt
+
+# 259679
+# Duration: 0.0077478885650634766s
+```
 
 #### 230 Fibonacci Words
-`python euler/_230_fibonacci_words.py 1415926535897932384626433832795028841971693993751058209749445923078164062862089986280348253421170679 8214808651328230664709384460955058223172535940812848111745028410270193852110555964462294895493038196`
-850481152593119296
-Duration: 0.000453948974609375s
+```sh
+python euler/_230_fibonacci_words.py 1415926535897932384626433832795028841971693993751058209749445923078164062862089986280348253421170679 8214808651328230664709384460955058223172535940812848111745028410270193852110555964462294895493038196
+
+# 850481152593119296
+# Duration: 0.000453948974609375s
+```
 
 #### 349 Langton's Ant
-`python euler/_349_langton_ant.py 1000000000000000000`
-115384615384614952 black squares after 1000000000000000000 moves
-Duration: 0.05420112609863281s
+```sh
+python euler/_349_langton_ant.py 1000000000000000000
+
+# 115384615384614952 black squares after 1000000000000000000 moves
+# Duration: 0.05420112609863281s
+```
 
 
 ### Unit tests
@@ -43,3 +52,22 @@ Only problem 230 uses doc tests. Invoking it without any arguments will cause th
 ```sh
 python euler/_230_fibonacci_words.py -v
 ```
+
+
+
+
+### Choice of problems
+
+
+### Problem-solving process
+
+
+### References
+For inspiration on implementing data structures
+http://algs4.cs.princeton.edu/code/
+
+For information about Langton's Ant
+http://mathworld.wolfram.com/LangtonsAnt.html
+
+### Time spent
+~15 hours

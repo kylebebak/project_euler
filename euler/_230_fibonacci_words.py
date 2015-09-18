@@ -1,3 +1,8 @@
+"""
+The implementation for this problem is functional. Both functions
+are defined in this script.
+"""
+
 def fib_until(cutoff, n0=0, n1=1):
     """
     >>> fib_until(20, 0, 1)
